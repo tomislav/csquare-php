@@ -1,0 +1,22 @@
+csquare-php
+-----------
+
+C-square (concise spatial query and representation system) implementation in PHP
+
+By Tomislav Filipčić <tomislav@me.com>
+
+More on c-squares: http://en.wikipedia.org/wiki/C-squares
+
+
+Usage:
+------
+
+get_csquare( latitude , longitude, resolution )
+
+<?php
+
+require 'csquare.php';
+
+$csquare = get_csquare(45.80636702443359, 15.978755950927734, 0.1);
+
+?>
